@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 400;
   margin-bottom: 2rem;
 }
@@ -62,12 +62,12 @@ h1 {
   font-size: 1.7rem;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 2rem;
   }
   .date-container {
-    gap: 1rem;
+    gap: 3rem;
   }
   .date-container > * {
     width: 5rem;
