@@ -6,8 +6,8 @@
 body {
   background: linear-gradient(
       to left bottom,
-      rgba(58, 12, 163, 0.8),
-      rgba(114, 9, 183, 0.5)
+      rgba(58, 12, 163, 0.2),
+      rgba(114, 9, 183, 0.3)
     ),
     url(https://images.unsplash.com/photo-1483356256511-b48749959172?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   background-repeat: no-repeat;
