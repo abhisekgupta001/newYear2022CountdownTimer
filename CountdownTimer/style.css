@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+      to left bottom,
+      rgba(58, 12, 163, 0.8),
+      rgba(114, 9, 183, 0.5)
+    ),
+    url(https://images.unsplash.com/photo-1483356256511-b48749959172?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.date-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.date-container > * {
+  width: 7.5rem;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  user-select: none;
+}
+.date-container p {
+  font-size: 2.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.date-container span {
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .date-container {
+    gap: 1rem;
+  }
+  .date-container > * {
+    width: 5rem;
+  }
+  .date-container p {
+    font-size: 1.5rem;
+  }
+  .date-container span {
+    font-size: 1rem;
+  }
+}
